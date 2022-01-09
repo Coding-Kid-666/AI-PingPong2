@@ -1,0 +1,50 @@
+.header{
+    top: 0;
+    width: 100%;
+    text-align: left;
+    position: sticky;
+}
+
+.title{
+    display:inline;
+}
+
+.HOWPLAYAAAA{
+    float: right;
+}
+
+canvas {
+    border-width: 3px;
+    border-color: white;
+}
+
+#copyright_footer {
+    margin: 0;
+    line-height: 2;
+    background-color: white;
+}
+
+#me_cred {
+    animation-name: wow;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    font-weight: bolder;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.modal-body {
+    display: block;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+@keyframes wow {
+    0% {color: red}
+    25% {color: orangered}
+    50% {color: orange}
+    75% {color: orangered}
+    100% {color: red}
+}
